@@ -1,5 +1,6 @@
+https://newsapp-johnnyko.herokuapp.com/   <br /><br />
 This is a webpage to display top headlines for Guardian News. Based on the selection by the user, the top-headlines should be for any of the following domains – world, politics, business, technology and sports. <br />
-https://newsapp-johnnyko.herokuapp.com/
+
 
 - Used AJAX and JSON technologies.
 - Used a combination of HTML5, React-Bootstrap, and React.js on client side.
