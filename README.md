@@ -1,5 +1,5 @@
 https://newsapp-johnnyko.herokuapp.com/   <br /><br />
-![image](https://github.com/johnnyko28/StrangeRoad/blob/master/StrangeRoad.pngScreenshot.png
+![image](Screenshot.png)<br />
 This is a webpage to display top headlines for Guardian News. Based on the selection by the user, the top-headlines could be for any of the following domains – world, politics, business, technology and sports. <br />
 
 
