@@ -33,12 +33,12 @@ const override = css`
 `;
 
 const options = [
-          { label: "Alligators"},
-          { label: "Crocodiles"},
-          { label: "Sharks"},
-          { label: "Small crocodiles"},
-          { label: "Smallest crocodiles"},
-          { label: "Snakes"},
+          // { label: "Alligators"},
+          // { label: "Crocodiles"},
+          // { label: "Sharks"},
+          // { label: "Small crocodiles"},
+          // { label: "Smallest crocodiles"},
+          // { label: "Snakes"},
         ];
 
 class App extends React.Component {
@@ -372,7 +372,9 @@ class App extends React.Component {
                                             </EmailShareButton>
                                         </Modal.Body>
                                       </Modal>
-                                    <div className="card-column" onClick={() => history.push('/article?id=' + item.id)}>
+                                  {/*<div className="card-column" onClick={() => history.push('/article?id=' + item.id)}> */}
+                                  <a href={item.webUrl}>
+                                    <div className="card-column">
                                         <div className="flex-container">
                                                 <img className="small" src= {item.blocks.main.elements[0].assets[5].file}          alt="Avatar"></img>
                                             <div className="container">
@@ -393,7 +395,7 @@ class App extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></a>
                                 </div>
                             )
                         }
@@ -417,7 +419,9 @@ class App extends React.Component {
                                             </EmailShareButton>
                                         </Modal.Body>
                                       </Modal>
-                                    <div className="card-column" onClick={() => history.push('/article?id=' + item.id)}>
+                                      {/*<div className="card-column" onClick={() => history.push('/article?id=' + item.id)}> */}
+                                      <a href={item.webUrl}>
+                                        <div className="card-column">
                                         <div className="flex-container">
                                             <img className="small" src="https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png" alt="Avatar">
                                             </img>
@@ -439,7 +443,7 @@ class App extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></a>
                                 </div>
                             )
 
@@ -625,11 +629,11 @@ class App extends React.Component {
                                 <Nav.Link as={NavLink} to="/sports" href='/sports'>Sports</Nav.Link>
                             </Nav>
                             <IconContext.Provider value={{ color: 'white', size: '18px' }}>
-                                <div className="bookmark">
+                                {/*<div className="bookmark">
                                     <NavLink to="/favorites" href='/favorites'> <FaRegBookmark /> </NavLink>
-                                </div>
+                                </div>*/}
                             </IconContext.Provider>
-                            <div className="switch">NYTimes</div>
+                            {/*<div className="switch">NYTimes</div>
                                 <Switch
                                    // on="isGuardian" off="!isGuardian"
                                     checked={this.state.checked}
@@ -647,7 +651,7 @@ class App extends React.Component {
                                     className="react-switch"
                                     id="material-switch"
                                   />
-                            <div className="switch">Guardian</div>
+                            <div className="switch">Guardian</div>*/}
                         </Navbar.Collapse>
                         </Navbar>
                         <switch>

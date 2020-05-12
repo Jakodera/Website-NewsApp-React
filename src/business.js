@@ -71,7 +71,9 @@ class Business extends Component {
                         try {
                             return(
                                 <div className="flex-container-column">
-                                    <div className="card-column" onClick={() => this.props.history.push('/article?id=' + item.id)}>
+                                {/*<div className="card-column" onClick={() => history.push('/article?id=' + item.id)}> */}
+                                <a href={item.webUrl}>
+                                  <div className="card-column">
                                         <div className="flex-container">
                                             <img className="small" src= {item.blocks.main.elements[0].assets[5].file}          alt="Avatar">
                                             </img>
@@ -93,14 +95,16 @@ class Business extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></a>
                                 </div>
                             )
                         }
                         catch {
                             return(
                                 <div className="flex-container-column">
-                                    <div className="card-column" onClick={() => this.props.history.push('/article?id=' + item.id)}>
+                                {/*<div className="card-column" onClick={() => history.push('/article?id=' + item.id)}> */}
+                                <a href={item.webUrl}>
+                                  <div className="card-column">
                                         <div className="flex-container">
                                             <img className="small" src="https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png" alt="Avatar">
                                             </img>
@@ -122,7 +126,7 @@ class Business extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></a>
                                 </div>
                             )
 
