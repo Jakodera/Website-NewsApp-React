@@ -1,5 +1,5 @@
 https://newsapp-johnnyko.herokuapp.com/   <br /> <br /> 
-![image](Screenshot.png)<br />
+![image](Screenshot.png)<br /><br />
 This is a webpage to display top headlines for Guardian News. Based on the selection by the user, the top-headlines could be for any of the following domains – world, politics, business, technology and sports. <br />
 
 
@@ -9,7 +9,7 @@ This is a webpage to display top headlines for Guardian News. Based on the selec
 - Used React-Bootstrap to enhance the user experience using responsive design.
 - Delpoyed to Amazon Web Services(AWS), now Heroku.
 - Used Guardian News API
-
+<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
