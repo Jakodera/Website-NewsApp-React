@@ -1,4 +1,4 @@
-https://newsapp-johnnyko.herokuapp.com/   <br /> <br /> 
+Demo link:  https://newsapp-johnnyko.herokuapp.com/   <br /> <br /> 
 ![image](Screenshot.png)<br /><br />
 This is a webpage to display top headlines for Guardian News. Based on the selection by the user, the top-headlines could be for any of the following domains – world, politics, business, technology and sports. <br />
 
@@ -41,7 +41,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!** 
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
